@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+[video](https://youtu.be/XzLuMtDelGk?si=ST79AuP3uty5oqkV&t=1382)
