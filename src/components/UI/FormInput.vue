@@ -1,5 +1,5 @@
 <template>
-    <input :value="modelValue" @input="updateInput" type="text" class="w-full mb-2 p-1 border border-solid">
+    <input :value="modelValue" @input="updateInput" type="text" class="w-full mb-2 p-1 border border-solid rounded-xl p-3">
 </template>
 
 <script>

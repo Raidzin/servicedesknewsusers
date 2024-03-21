@@ -6,11 +6,13 @@
                 type="text"
                 placeholder="Имя пользователя"
             />
-            <form-input 
-                v-model="user.role"
-                type="text"
-                placeholder="роль"
-            />
+            <div class="my-3">
+                <span>Администратор</span>
+                <q-toggle
+                    color="lime"
+                    v-model="user.is_admin"
+                />
+            </div>
             <action-button
                 @click="createUser"
             >
@@ -26,7 +28,7 @@ export default {
         return {
             user: {
                 username: '',
-                role: '',
+                is_admin: false,
             }
         }
     },
@@ -35,7 +37,7 @@ export default {
             this.$emit('create', this.user);
             this.user = {
                 username: '',
-                role: '',
+                is_admin: false,
             }
         }
     }
