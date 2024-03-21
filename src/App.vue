@@ -1,8 +1,9 @@
 <template>
     <div class="flex items-center justify-center">
-        <div>
+        <div class="w-full max-w-screen-sm">
             <user-form
                 @create="createUser"
+                class="max-w-screen-sm"
             />
             <user-list
                 :users="users"

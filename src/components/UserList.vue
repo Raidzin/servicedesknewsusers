@@ -1,5 +1,5 @@
 <template>
-    <div v-if="users.length > 0" class="w-full">
+    <div v-if="users.length > 0" class="w-full max-w-screen-md">
         <h2 class="text-center text-2xl">Список пользователей</h2>
         <post-item
             :user="user"
