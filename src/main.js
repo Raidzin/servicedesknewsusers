@@ -3,7 +3,6 @@ import { Quasar } from 'quasar'
 import QuasarLang  from 'quasar/lang/ru'
 
 import '@quasar/extras/material-icons/material-icons.css'
-
 import 'quasar/src/css/index.sass'
 
 import App from './App.vue'
